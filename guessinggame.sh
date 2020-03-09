@@ -4,7 +4,7 @@ function guess(){
     true_ans=$(ls -l |grep "^-"|wc -l)
     while true;
     do
-        echo "pleas enter your guess"
+        echo "please enter your guess"
         read  number
         if [ $number -lt $true_ans ]
         then
